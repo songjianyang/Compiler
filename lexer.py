@@ -4,7 +4,7 @@ CMPGT, CMPLT, EQUAL = 'CMPGT', 'CMPLT', 'EQUAL'
 LBRACKET, RBRACKET, LPAREN, RPAREN = 'LBRACKET', 'RBRACKET', 'LPAREN', 'RPAREN'
 COMMA, QUOT, PERCENT = 'COMMA', 'QUOT', 'PERCENT'
 LINEEND, SPACE, EOF = ';', ' ', 'EOF'
-
+ 
 
 class Token():
     def __init__(self, type, value):
