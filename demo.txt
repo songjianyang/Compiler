@@ -1,0 +1,24 @@
+var i
+var j
+var x
+
+def test(i,j){
+    i = 0
+    while i<6{
+        i = i + 1
+        j = 6
+        while j > i{
+            j = j - 1
+            print(" ")
+        }
+        j = 0
+        while j < 2 * i {
+            print("*")
+            j = j + 1
+        }
+        print("\n")
+    }
+}
+
+test(i,j)
+
