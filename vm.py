@@ -1,3 +1,4 @@
+from __future__ import print_function
 import re
 import sys
 from parser import *
@@ -9,7 +10,8 @@ var_table = {}
 param_num = []
 ret_addr = []
 
-code = Parser(sys.argv[1]).program()
+code = Parser('source1').program()
+
 
 def do_push(arg):
     global eip
@@ -164,9 +166,9 @@ def do_print(arg):
             v = stack[var_table[var_p[i]]]
             v = str(fmt_p[i] % v)
             fmt = fmt.replace(fmt_p[i], v, 1).replace('"', '')
-        print fmt.replace('\\n', '\n'),
+        print(fmt.replace('\\n', '\n'), end='')
     else:
-        print eval(str(arg)),
+        print(eval(str(arg)), end='')
 
 
 def do_exit(arg):
