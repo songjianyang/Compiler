@@ -1,6 +1,4 @@
-var i
-var j
-var x
+var i,j
 
 def test(i,j){
     i = 0
