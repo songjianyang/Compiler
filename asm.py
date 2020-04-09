@@ -280,7 +280,7 @@ def run():
         f.write(l + '\n')
     f.close()
 
-    os.system('nasm -felf32 a.asm && gcc -m32 a.o && rm a.asm && rm a.o')
+    os.system('nasm -felf32 a.asm && gcc -m32 a.o && rm a.asm && rm a.o ')
 
 
 run()
