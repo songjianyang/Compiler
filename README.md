@@ -53,7 +53,7 @@ test(i,j)
 python vm.py demo.txt
 ```
 
-![](/image/15864486769183.jpg)
+![](/images/vm.jpg)
 
 
 
@@ -62,7 +62,7 @@ python vm.py demo.txt
 python asm.py demo.txt
 ./a.out
 ```
-![](/image/15864478607711.jpg)
+![](/images/asm.jpg)
 
 
 
