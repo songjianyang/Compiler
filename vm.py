@@ -10,7 +10,7 @@ var_table = {}
 param_num = []
 ret_addr = []
 
-code = Parser('source1').program()
+code = Parser(sys.argv[1]).program()
 
 
 def do_push(arg):
