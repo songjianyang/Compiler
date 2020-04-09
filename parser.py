@@ -1,6 +1,6 @@
 from lexer import *
 
-
+ 
 class Parser():
     def __init__(self, filename):
         self.token_stream = Lexer(filename).lexer()
